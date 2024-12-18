@@ -1,0 +1,74 @@
+[
+ {
+  "_id": 11,
+  "max_speechiness": 0.267,
+  "min_speechiness": 0.0543,
+  "avg_speechiness": 0.15122727272727274
+ },
+ {
+  "_id": 10,
+  "max_speechiness": 0.273,
+  "min_speechiness": 0.0597,
+  "avg_speechiness": 0.1379142857142857
+ },
+ {
+  "_id": 9,
+  "max_speechiness": 0.483,
+  "min_speechiness": 0.029,
+  "avg_speechiness": 0.13718
+ },
+ {
+  "_id": 8,
+  "max_speechiness": 0.341,
+  "min_speechiness": 0.0354,
+  "avg_speechiness": 0.10765263157894736
+ },
+ {
+  "_id": 7,
+  "max_speechiness": 0.444,
+  "min_speechiness": 0.0429,
+  "avg_speechiness": 0.19657
+ },
+ {
+  "_id": 6,
+  "max_speechiness": 0.257,
+  "min_speechiness": 0.0319,
+  "avg_speechiness": 0.08935384615384614
+ },
+ {
+  "_id": 5,
+  "max_speechiness": 0.365,
+  "min_speechiness": 0.0302,
+  "avg_speechiness": 0.09615833333333333
+ },
+ {
+  "_id": 4,
+  "max_speechiness": 0.884,
+  "min_speechiness": 0.031400000000000004,
+  "avg_speechiness": 0.234825
+ },
+ {
+  "_id": 3,
+  "max_speechiness": 0.0699,
+  "min_speechiness": 0.0323,
+  "avg_speechiness": 0.051100000000000007
+ },
+ {
+  "_id": 2,
+  "max_speechiness": 0.472,
+  "min_speechiness": 0.027600000000000003,
+  "avg_speechiness": 0.12936
+ },
+ {
+  "_id": 1,
+  "max_speechiness": 0.197,
+  "min_speechiness": 0.0405,
+  "avg_speechiness": 0.0927
+ },
+ {
+  "_id": 0,
+  "max_speechiness": 0.306,
+  "min_speechiness": 0.0339,
+  "avg_speechiness": 0.11858666666666666
+ }
+]

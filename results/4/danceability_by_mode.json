@@ -1,0 +1,14 @@
+[
+ {
+  "_id": 1,
+  "max_danceability": 0.89,
+  "min_danceability": 0.34700000000000003,
+  "avg_danceability": 0.6218902439024391
+ },
+ {
+  "_id": 0,
+  "max_danceability": 0.856,
+  "min_danceability": 0.328,
+  "avg_danceability": 0.62665625
+ }
+]

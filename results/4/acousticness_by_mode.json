@@ -1,0 +1,14 @@
+[
+ {
+  "_id": 1,
+  "max_acousticness": 0.864,
+  "min_acousticness": 0.00044,
+  "avg_acousticness": 0.09656789024390244
+ },
+ {
+  "_id": 0,
+  "max_acousticness": 0.554,
+  "min_acousticness": 0.000216,
+  "avg_acousticness": 0.102835015625
+ }
+]

@@ -1,0 +1,79 @@
+[
+ {
+  "_id": 2015,
+  "max_age": 65,
+  "min_age": 25,
+  "avg_age": 43.6,
+  "avg_salary": 89306.0
+ },
+ {
+  "_id": 2014,
+  "max_age": 59,
+  "min_age": 26,
+  "avg_age": 44.666666666666664,
+  "avg_salary": 164419.16666666666
+ },
+ {
+  "_id": 2013,
+  "max_age": 47,
+  "min_age": 47,
+  "avg_age": 47.0,
+  "avg_salary": 119436.0
+ },
+ {
+  "_id": 2012,
+  "max_age": 65,
+  "min_age": 65,
+  "avg_age": 65.0,
+  "avg_salary": 20014.0
+ },
+ {
+  "_id": 2011,
+  "max_age": 37,
+  "min_age": 22,
+  "avg_age": 31.5,
+  "avg_salary": 95400.25
+ },
+ {
+  "_id": 2010,
+  "max_age": 63,
+  "min_age": 32,
+  "avg_age": 45.666666666666664,
+  "avg_salary": 94863.0
+ },
+ {
+  "_id": 2009,
+  "max_age": 37,
+  "min_age": 24,
+  "avg_age": 30.5,
+  "avg_salary": 104854.0
+ },
+ {
+  "_id": 2008,
+  "max_age": 62,
+  "min_age": 56,
+  "avg_age": 59.0,
+  "avg_salary": 115719.0
+ },
+ {
+  "_id": 2007,
+  "max_age": 61,
+  "min_age": 29,
+  "avg_age": 46.5,
+  "avg_salary": 129210.66666666667
+ },
+ {
+  "_id": 2006,
+  "max_age": 21,
+  "min_age": 21,
+  "avg_age": 21.0,
+  "avg_salary": 150702.0
+ },
+ {
+  "_id": 2005,
+  "max_age": 51,
+  "min_age": 33,
+  "avg_age": 43.0,
+  "avg_salary": 89810.33333333333
+ }
+]
