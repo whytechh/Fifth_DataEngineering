@@ -11,7 +11,7 @@ def connect_to_database():
 
 
 def read_csv():
-    data = pd.read_csv(r'lab_5\tasks\4\bts_p1.csv', encoding='utf-8')
+    data = pd.read_csv('./tasks/4/bts_p1.csv', encoding='utf-8')
     column_drop = ['Unnamed: 0']
     data = data.drop(columns=column_drop)
     data['Release'] = pd.to_datetime(data['Release']).dt.strftime('%Y-%m-%d')
@@ -19,7 +19,7 @@ def read_csv():
 
 
 def read_json():
-    data = pd.read_json(r'lab_5\tasks\4\bts_p2.json', encoding='utf-8')
+    data = pd.read_json('./tasks/4/bts_p2.json', encoding='utf-8')
     column_drop = ['Unnamed: 0']
     data = data.drop(columns=column_drop)
     data['Release'] = pd.to_datetime(data['Release']).dt.strftime('%Y-%m-%d')
@@ -228,16 +228,16 @@ data_json_dict = data_json.to_dict(orient='records')
 #collection.insert_many(data_csv_dict)
 #collection.insert_many(data_json_dict)
 
-save_queries(r'lab_5\results\4\sorted_instrumentalness.json', sorted_instrumentalness(collection))
-save_queries(r'lab_5\results\4\filtered_energy.json', filtered_energy(collection))
-save_queries(r'lab_5\results\4\filters.json', filters(collection))
-save_queries(r'lab_5\results\4\range_filters.json', {'count': range_filters(collection)})
-save_queries(r'lab_5\results\4\filtered_tempo.json', filtered_tempo(collection))
-save_queries(r'lab_5\results\4\loudness_stats.json', loudness_stats(collection))
-save_queries(r'lab_5\results\4\key_stats.json', key_stats(collection))
-save_queries(r'lab_5\results\4\acousticness_by_mode.json', acousticness_by_mode(collection))
-save_queries(r'lab_5\results\4\speechiness_by_key.json', speechiness_by_key(collection))
-save_queries(r'lab_5\results\4\danceability_by_mode.json', danceability_by_mode(collection))
+save_queries('./results/4/sorted_instrumentalness.json', sorted_instrumentalness(collection))
+save_queries('./results/4/filtered_energy.json', filtered_energy(collection))
+save_queries('./results/4/filters.json', filters(collection))
+save_queries('./results/4/range_filters.json', {'count': range_filters(collection)})
+save_queries('./results/4/filtered_tempo.json', filtered_tempo(collection))
+save_queries('./results/4/loudness_stats.json', loudness_stats(collection))
+save_queries('./results/4/key_stats.json', key_stats(collection))
+save_queries('./results/4/acousticness_by_mode.json', acousticness_by_mode(collection))
+save_queries('./results/4/speechiness_by_key.json', speechiness_by_key(collection))
+save_queries('./results/4/danceability_by_mode.json', danceability_by_mode(collection))
 print(delete_by_danceability(collection))
 print(update_liveness(collection))
 print(decrease_valence(collection))
