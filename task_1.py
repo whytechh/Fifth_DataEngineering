@@ -11,7 +11,7 @@ def connect_to_database():
 
 
 def read_csv():
-    data = pd.read_csv(r'lab_5\tasks\1\task_1_item.csv', encoding='utf-8')
+    data = pd.read_csv('./tasks/1/task_1_item.csv', encoding='utf-8')
     return data
 
 
@@ -64,7 +64,7 @@ data_dict = data.to_dict(orient='records')
 
 #collection.insert_many(data_dict)
 
-save_queries(r'lab_5\results\1\sorted_salary.json', sorted_salary(collection))
-save_queries(r'lab_5\results\1\filtered_age.json', filtered_age(collection))
-save_queries(r'lab_5\results\1\filters.json', filters(collection))
-save_queries(r'lab_5\results\1\range_filters.json', {'count': range_filters(collection)})
+save_queries('./results/1/sorted_salary.json', sorted_salary(collection))
+save_queries('./results/1/filtered_age.json', filtered_age(collection))
+save_queries('./results/1/filters.json', filters(collection))
+save_queries('./results/1/range_filters.json', {'count': range_filters(collection)})
