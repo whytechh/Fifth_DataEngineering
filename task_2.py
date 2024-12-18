@@ -11,7 +11,7 @@ def connect_to_database():
 
 
 def read_pickle():
-    with open(r'lab_5\tasks\2\task_2_item.pkl', 'rb') as file:
+    with open('./tasks/2/task_2_item.pkl', 'rb') as file:
         return pickle.load(file)
 
 
@@ -244,14 +244,14 @@ data = read_pickle()
 
 #collection.insert_many(data)
 
-save_queries(r'lab_5\results\2\salary_stats.json', salary_stats(collection))
-save_queries(r'lab_5\results\2\job_stats.json', job_stats(collection))
-save_queries(r'lab_5\results\2\salary_by_city.json', salary_by_city(collection))
-save_queries(r'lab_5\results\2\salary_by_job.json', salary_by_job(collection))
-save_queries(r'lab_5\results\2\age_by_city.json', age_by_city(collection))
-save_queries(r'lab_5\results\2\age_by_job.json', age_by_job(collection))
-save_queries(r'lab_5\results\2\maxSalary_by_minAge.json', maxSalary_by_minAge(collection))
-save_queries(r'lab_5\results\2\minSalary_by_maxAge.json', minSalary_by_maxAge(collection))
-save_queries(r'lab_5\results\2\statsAge_byCity_withFilteredSalary.json', statsAge_byCity_withFilteredSalary(collection))
-save_queries(r'lab_5\results\2\statsSalary_withRangeFilters.json', statsSalary_withRangeFilters(collection))
-save_queries(r'lab_5\results\2\custom_query.json', custom_query(collection))
+save_queries('./results/2/salary_stats.json', salary_stats(collection))
+save_queries('./results/2/job_stats.json', job_stats(collection))
+save_queries('./results/2/salary_by_city.json', salary_by_city(collection))
+save_queries('./results/2/salary_by_job.json', salary_by_job(collection))
+save_queries('./results/2/age_by_city.json', age_by_city(collection))
+save_queries('./results/2/age_by_job.json', age_by_job(collection))
+save_queries('./results/2/maxSalary_by_minAge.json', maxSalary_by_minAge(collection))
+save_queries('./results/2/minSalary_by_maxAge.json', minSalary_by_maxAge(collection))
+save_queries('./results/2/statsAge_byCity_withFilteredSalary.json', statsAge_byCity_withFilteredSalary(collection))
+save_queries('./results/2/statsSalary_withRangeFilters.json', statsSalary_withRangeFilters(collection))
+save_queries('./results/2/custom_query.json', custom_query(collection))
