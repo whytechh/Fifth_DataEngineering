@@ -1,5 +1,5 @@
 import json
-from pymongo import MongoClient, ASCENDING, DESCENDING
+from pymongo import MongoClient
 
 
 def connect_to_database():
@@ -10,7 +10,7 @@ def connect_to_database():
 
 
 def read_json():
-    with open(r'lab_5\tasks\3\task_3_item.json', 'r', encoding='utf-8') as file:
+    with open('./tasks/3/task_3_item.json', 'r', encoding='utf-8') as file:
         return json.load(file)
     
 
